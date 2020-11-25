@@ -1,0 +1,8 @@
+localhost:80, localhost:443
+
+root * /var/www
+file_server
+
+header strict-transport-security "max-age=300; includeSubDomains"
+header x-content-type-options "nosniff"
+header x-xss-protection "1; mode=block"
